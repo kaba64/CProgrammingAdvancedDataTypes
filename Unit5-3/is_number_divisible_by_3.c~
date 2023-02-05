@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(void){
+
+  char c;
+  int d;
+  scanf("c", &c);
+  while ( c != '\n'  ){
+
+    d = c - 48;
+    printf("%d %c", d, c);
+    scanf("c", &c);
+    
+  }
+
+   return 0;
+}
